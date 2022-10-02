@@ -1,10 +1,12 @@
+//only accurate upto 1476
+
 #include <stdio.h>
 
 int main () {
-	int count, num1 = 0, num2 = 1, nextNum, i;
+	double count, num1 = 0, num2 = 1, nextNum, i;
 
 	printf("Enter the number of terms: ");
-	scanf("%d", &count);
+	scanf("%lf", &count);
 
 	for (i = 0; i < count; i++) {
 		if (i < 1){
@@ -17,7 +19,7 @@ int main () {
 			num2 = nextNum;
 		}
 
-		printf("%d\n", nextNum);
+		printf(" %lf \n\n", nextNum);
 	}
 
 	return 0;
