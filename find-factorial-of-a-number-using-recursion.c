@@ -1,3 +1,5 @@
+//only accurate upto the factorial of 31.
+
 #include <stdio.h>
 
 int find_factorial(int);
