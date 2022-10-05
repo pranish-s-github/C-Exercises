@@ -1,3 +1,6 @@
+//gcc -o help armstrong-number-checker.c -lm
+//remember the -lm
+
 #include <stdio.h>
 #include <math.h>
 
