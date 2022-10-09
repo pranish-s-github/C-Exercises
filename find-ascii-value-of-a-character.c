@@ -2,7 +2,7 @@
 int main()
 {
     char ch;
-    printf("Enter any character:");
+    printf("Enter any character: ");
 
     /* Reads the entered character and stores it
      * into the char variable ch
